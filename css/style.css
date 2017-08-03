@@ -1,0 +1,55 @@
+*{
+	margin:0;
+	padding:0;
+}
+.wrapper{
+	height:100%;
+	width:100%;
+	margin: 0 auto;
+}
+.container{
+	height:500px;
+	width:1024px;
+	overflow:hidden;
+	position:relative;
+	float:left;
+
+}
+.slider1{
+	height:720px;
+	width:10000px;
+	position:absolute;
+	float:left;
+}
+.slider2{
+	height:720px;
+	width:6000px;
+	position:absolute;
+	float:left;
+}
+.dot-wrapper{
+	position:absolute;
+	bottom:5px;
+	left:450px;
+	width:100px;
+	height:10px;
+}
+.circle{
+	width:10px;
+	height:10px;
+	background:red;
+	border-radius:7px;
+	border:2px solid black;
+ 	float:left;
+	margin-left:3px;
+}
+.circle:hover{
+	background:blue;
+}
+button{
+	float:left;
+}
+img{
+
+	float:left;
+}
